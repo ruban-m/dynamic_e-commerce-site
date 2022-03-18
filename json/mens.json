@@ -71,17 +71,17 @@
       },
       {
         "item_no": 9,
-        "img_path": "./images/men/9.jpg",
-        "item_name": "Shirt",
-        "description": "New arrival",
-        "price": "500"
+        "img_path": "./images/men/r.jpeg",
+        "item_name": "T-shirt",
+        "description": "Special Edition",
+        "price": "400"
       },
       {
         "item_no": 10,
-        "img_path": "./images/men/10.jpg",
-        "item_name": "Shirt",
-        "description": "New arrival",
-        "price": "500"
+        "img_path": "./images/men/s.jpg",
+        "item_name": "Casuals",
+        "description": "Special Edition",
+        "price": "600"
       }
     ]
   }
