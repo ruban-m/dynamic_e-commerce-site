@@ -1,0 +1,35 @@
+.collection {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: grid;
+  gap: 1rem;
+  width: auto;
+}
+.collection .dress {
+  border: 2px solid white;
+  border-radius: 4px;
+  position: relative;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.collection .dress img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+.collection .dress .text {
+  height: fit-content;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+/* Media queries */
+@media (min-width: 55em) {
+  .collection {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

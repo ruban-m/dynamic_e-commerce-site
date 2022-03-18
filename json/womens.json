@@ -1,0 +1,88 @@
+[
+  {
+    "column": [
+      {
+        "title": "Leesa Collections",
+        "height": "400px"
+      },
+      {
+        "item_no": 1,
+        "img_path": "./images/women/1.jpg",
+        "item_name": "Paper Cotton Saree",
+        "description": "New arrival",
+        "price": "780"
+      },
+      {
+        "item_no": 2,
+        "img_path": "./images/women/2.jpg",
+        "item_name": "Paper Cotton Saree",
+        "description": "New arrival",
+        "price": "780"
+      },
+      {
+        "item_no": 3,
+        "img_path": "./images/women/3.jpg",
+        "item_name": "Paper Cotton Saree",
+        "description": "New arrival",
+        "price": "780"
+      },
+      {
+        "item_no": 4,
+        "img_path": "./images/women/4.jpg",
+        "item_name": "Paper Cotton Saree",
+        "description": "New arrival",
+        "price": "780"
+      },
+      {
+        "item_no": 5,
+        "img_path": "./images/women/5.jpg",
+        "item_name": "Paper Cotton Saree",
+        "description": "New arrival",
+        "price": "780"
+      }
+    ]
+  },
+  {
+    "column": [
+      {
+        "title": "Leesa Collections",
+        "height": "450px"
+      },
+      {
+        "item_no": 6,
+        "img_path": "./images/women/6.jpg",
+        "item_name": "Paper Cotton Saree",
+        "description": "New arrival",
+        "price": "780"
+      },
+      {
+        "item_no": 7,
+        "img_path": "./images/women/7.jpg",
+        "item_name": "Paper Cotton Saree",
+        "description": "New arrival",
+        "price": "780"
+      },
+      {
+        "item_no": 8,
+        "img_path": "./images/women/8.jpg",
+        "item_name": "Paper Cotton Saree",
+        "description": "New arrival",
+        "price": "780"
+      },
+      {
+        "item_no": 9,
+        "img_path": "./images/women/9.jpg",
+        "item_name": "Paper Cotton Saree",
+        "description": "New arrival",
+        "price": "780"
+      },
+      {
+        "item_no": 10,
+        "img_path": "./images/women/10.jpg",
+        "item_name": "Paper Cotton Saree",
+        "description": "New arrival",
+        "price": "780"
+      }
+    ]
+  }
+]

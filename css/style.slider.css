@@ -1,0 +1,68 @@
+.set h1 {
+  width: auto;
+  text-align: center;
+  background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.set .scroller {
+  padding: 10px;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 2rem;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+.set .scroller::-webkit-scrollbar {
+  width: 10px;
+  height: 0px;
+}
+.set .scroller::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 10px;
+}
+.set .scroller::-webkit-scrollbar-track {
+  background: transparent;
+}
+.set .scroller .box {
+  width: 300px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  border: 1px solid #dadce0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.set .scroller .image {
+  position: relative;
+}
+
+.set .scroller .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-sizing: border-box;
+}
+.set .scroller .d-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  background: white;
+}
+.set .scroller .d-box .type {
+  display: flex;
+  flex-direction: column;
+}
+.set .scroller .d-box .type h4 {
+  color: #222222;
+  margin: 5px 0px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  padding-right: 8px;
+}
+.set .scroller .d-box .type span {
+  color: rgba(26, 26, 26, 0.5);
+}

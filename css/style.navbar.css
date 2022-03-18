@@ -1,0 +1,38 @@
+.navbar {
+  z-index: 1;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  width: auto;
+  height: 60px;
+  background: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+.navbar h1 {
+  letter-spacing: 2px;
+  font-size: 1rem;
+}
+.navbar img {
+  height: 25px;
+  width: 25px;
+}
+.navbar i {
+  font-size: 1.5rem;
+  color: #f37b20;
+}
+@media (min-width: 55em) {
+  .navbar {
+    height: 80px;
+  }
+  .navbar h1 {
+    font-size: 2rem;
+  }
+  .navbar i {
+    font-size: 2rem;
+  }
+}

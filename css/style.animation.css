@@ -1,0 +1,72 @@
+.title {
+  overflow: hidden;
+  padding: 40px;
+  width: auto;
+  height: fit-content;
+  background: white;
+  position: relative;
+}
+.title .logo {
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+.title .logo h1 {
+  font-size: 5rem;
+}
+.title .animation-right {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  animation: moveright 15s linear infinite;
+  padding: 40px;
+}
+.title .animation-left {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  animation: moveleft 15s linear infinite;
+}
+
+.title .animation-right img,
+.title .animation-left img {
+  min-height: 60px;
+  min-width: 60px;
+  opacity: 0.09;
+}
+
+@keyframes moveright {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+@keyframes moveleft {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+@media (min-width: 55em) {
+  .title .animation-right img,
+  .title .animation-left img {
+    min-height: 80px;
+    min-width: 80px;
+  }
+  .title .logo {
+    transform: translate(-50%, 20%);
+  }
+  .title .animation-right {
+    gap: 5rem;
+    animation-duration: 60s;
+  }
+  .title .animation-left {
+    gap: 5rem;
+    animation-duration: 60s;
+  }
+}

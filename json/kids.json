@@ -1,0 +1,88 @@
+[
+  {
+    "column": [
+      {
+        "title": "boys Collections",
+        "height": "400px"
+      },
+      {
+        "item_no": 1,
+        "img_path": "./images/kid/1.jpg",
+        "item_name": "kids wears",
+        "description": "New arrival",
+        "price": "980"
+      },
+      {
+        "item_no": 2,
+        "img_path": "./images/kid/2.jpg",
+        "item_name": "kids wears",
+        "description": "New arrival",
+        "price": "700"
+      },
+      {
+        "item_no": 3,
+        "img_path": "./images/kid/3.jpg",
+        "item_name": "kids wears",
+        "description": "New arrival",
+        "price": "550"
+      },
+      {
+        "item_no": 4,
+        "img_path": "./images/kid/4.jpg",
+        "item_name": "kids wears",
+        "description": "New arrival",
+        "price": "480"
+      },
+      {
+        "item_no": 5,
+        "img_path": "./images/kid/5.jpg",
+        "item_name": "kids wears",
+        "description": "New arrival",
+        "price": "400"
+      }
+    ]
+  },
+  {
+    "column": [
+      {
+        "title": "girls collection",
+        "height": "450px"
+      },
+      {
+        "item_no": 6,
+        "img_path": "./images/kid/6.jpg",
+        "item_name": "kids wears",
+        "description": "New arrival",
+        "price": "700"
+      },
+      {
+        "item_no": 7,
+        "img_path": "./images/kid/7.jpg",
+        "item_name": "kids wears",
+        "description": "New arrival",
+        "price": "880"
+      },
+      {
+        "item_no": 8,
+        "img_path": "./images/kid/8.jpg",
+        "item_name": "kids wears",
+        "description": "New arrival",
+        "price": "980"
+      },
+      {
+        "item_no": 9,
+        "img_path": "./images/kid/9.jpg",
+        "item_name": "kids wears",
+        "description": "New arrival",
+        "price": "1000"
+      },
+      {
+        "item_no": 10,
+        "img_path": "./images/kid/10.jpg",
+        "item_name": "kids wears",
+        "description": "New arrival",
+        "price": "780"
+      }
+    ]
+  }
+]
